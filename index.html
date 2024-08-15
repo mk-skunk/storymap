@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Map with Custom Locations</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the CSS file -->
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        #map {
+            height: calc(100vh - 50px); /* Adjust height to account for the title */
+            width: 100%;
+        }
+        .header {
+            background-color: #f8f9fa;
+            padding: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">JOURNEY TO NAIROBI CBD</div> <!-- Title -->
+
+    <div id="map"></div> <!-- Map container -->
+
+    <!-- Link to Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+
+    <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
+
+    <!-- Optional: include a local copy of Leaflet CSS and JS -->
+    <!--
+    <link rel="stylesheet" href="path/to/local/leaflet.css" />
+    <script src="path/to/local/leaflet.js"></script>
+    -->
+</body>
+</html>
